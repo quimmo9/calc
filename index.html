@@ -3,16 +3,15 @@
 <head>
     <meta charset="utf-8">
 	<title>CALCULATOR</title>
+	<script src="solution.js"></script>
 </head>
 <body>
-  
-    <input type="text" placeholder="Введите A">
-     
-    <input type="text" placeholder="Введите B">
- 
-    <input type="text" placeholder="Введите C">
-
-    <input type="button" value="РЕШИТЬ">
+    <input type="text" id="valueA" placeholder="Введите A" />
+    <input type="text" id="valueB" placeholder="Введите B" />
+    <input type="text" id="valueC" placeholder="Введите C" />
+    <input type="button" value="SOLVE" onclick="solution()" />
+    <p id="x1"></p>
+    <p id="x2"></p>
 
 </body>
 </html>
