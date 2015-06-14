@@ -3,15 +3,22 @@
 <head>
     <meta charset="utf-8">
 	<title>CALCULATOR</title>
+	<link rel="stylesheet" href="styles.css">
 	<script src="solution.js"></script>
+	<script src="sign.js"></script>
 </head>
 <body>
-    <input type="text" id="valueA" placeholder="Введите A" />
-    <input type="text" id="valueB" placeholder="Введите B" />
-    <input type="text" id="valueC" placeholder="Введите C" />
-    <input type="button" value="SOLVE" onclick="solution()" />
-    <p id="x1"></p>
-    <p id="x2"></p>
+    <h3>
+    	<input class="button" type="button" value="+" id="1">
+    	<input type="text" id="valueA" size="1px" />x<sup>2</sup>
+    	<input class="button" type="button" value="+" id="2">
+    	<input type="text" id="valueB" size="1px" />x
+    	<input class="button" type="button" value="+" id="3">
+    	<input type="text" id="valueC" size="1px" />=0
+    </h3>
+    <h4><input type="button" value="SOLVE" onclick="solution()" id="slv" /></h4>
+    <p id="x1">x1=</p>
+    <p id="x2">x2=</p>
 
 </body>
 </html>
